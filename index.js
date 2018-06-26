@@ -6,7 +6,6 @@ function findMinAndRemoveSorted(arr) {
 }
 
 function merge(arr1, arr2) {
-  console.log(arr1,arr2);
   let merged_arr = [];
   while (arr1.length != 0 && arr2.length != 0) {
     if (arr1[0] <= arr2[0]) {
@@ -23,7 +22,6 @@ function merge(arr1, arr2) {
     merged_arr = merged_arr.concat(arr2);
   }
   return merged_arr;
-  console.log(merged_arr);
 }
 
 function mergeSort(array){
@@ -39,4 +37,4 @@ function mergeSort(array){
    }
  }
 
-console.log(mergeSort([12, 10, 9, 14, 1, 3, 5, 11, 6, 15, 16, 13, 2, 4, 8, 7]));
+//console.log(mergeSort([12, 10, 9, 14, 1, 3, 5, 11, 6, 15, 16, 13, 2, 4, 8, 7]));
