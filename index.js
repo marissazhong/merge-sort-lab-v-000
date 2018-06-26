@@ -32,6 +32,7 @@ function mergeSort(array){
    if(array.length <= 2){
      return array;
    } else {
+     console.log(firstHalf,secondHalf);
      merge(mergeSort(firstHalf), mergeSort(secondHalf));
    }
  }
