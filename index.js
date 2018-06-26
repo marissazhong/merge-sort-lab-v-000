@@ -23,6 +23,7 @@ function merge(arr1, arr2) {
     merged_arr = merged_arr.concat(arr2);
   }
   return merged_arr;
+  console.log(merged_arr);
 }
 
 function mergeSort(array){
