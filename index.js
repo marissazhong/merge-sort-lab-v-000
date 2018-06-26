@@ -35,7 +35,7 @@ function mergeSort(array){
      return array;
    } else {
      //console.log(firstHalf,secondHalf);
-     merge(mergeSort(firstHalf), mergeSort(secondHalf));
+     return merge(mergeSort(firstHalf), mergeSort(secondHalf));
    }
  }
 
