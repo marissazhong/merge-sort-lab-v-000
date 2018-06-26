@@ -6,7 +6,18 @@ function findMinAndRemoveSorted(arr) {
 }
 
 function merge(arr1, arr2) {
+  merged_arr = [];
+  while (arr1.length != 0 && arr2.length != 0) {
+    if (arr1[0] <= arr2[0]) {
 
+    }
+  }
+  if (arr1.length != 0) {
+    merged_arr += arr1;
+  } elseif (arr2.length != 0) {
+    merged_arr += arr2;
+  }
+  return merged_arr;
 }
 
 function mergeSort(arr) {
