@@ -17,9 +17,9 @@ function merge(arr1, arr2) {
     }
   }
   if (arr1.length != 0) {
-    merged_arr.concat(merged_arr,arr1);
+    merged_arr.concat(arr1);
   } else if (arr2.length != 0) {
-    merged_arr.concat(merged_arr,arr2);
+    merged_arr.concat(arr2);
   }
   return merged_arr;
 }
