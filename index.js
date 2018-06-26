@@ -24,8 +24,16 @@ function merge(arr1, arr2) {
   return merged_arr;
 }
 
-function mergeSort(arr) {
-  
-}
+function mergeSort(array){
+   let midpoint = array.length/2
+   let firstHalf = array.slice(0, midpoint)
+   let secondHalf = array.slice(midpoint, array.length)
+
+   if(array.length < 2){
+     return array
+   } else {
+     merge(mergeSort(firstHalf), mergeSort(secondHalf))
+   }
+ }
 
 //console.log(merge([3,4,6,7],[1,2,5,8]));
