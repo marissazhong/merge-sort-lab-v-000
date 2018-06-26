@@ -28,4 +28,4 @@ function mergeSort(arr) {
 
 }
 
-//console.log(merge([1,3,5],[2,4,5,7]));
+console.log(merge([3,4,6,7],[1,2,5,8]));
