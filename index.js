@@ -33,7 +33,6 @@ function mergeSort(array){
      return array;
    } else {
      merge(mergeSort(firstHalf), mergeSort(secondHalf));
-     console.log(merge(mergeSort(firstHalf), mergeSort(secondHalf)));
    }
  }
 
