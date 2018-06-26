@@ -37,4 +37,4 @@ function mergeSort(array){
    }
  }
 
-//console.log(merge([3,4,6,7],[1,2,5,8]));
+console.log(mergeSort([12, 10, 9, 14, 1, 3, 5, 11, 6, 15, 16, 13, 2, 4, 8, 7]));
