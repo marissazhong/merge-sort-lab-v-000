@@ -25,14 +25,14 @@ function merge(arr1, arr2) {
 }
 
 function mergeSort(array){
-   let midpoint = Math.floor(array.length/2)
-   let firstHalf = array.slice(0, midpoint)
-   let secondHalf = array.slice(midpoint, array.length)
+   let midpoint = Math.floor(array.length/2);
+   let firstHalf = array.slice(0, midpoint);
+   let secondHalf = array.slice(midpoint, array.length);
 
    if(array.length < 2){
-     return array
+     return array;
    } else {
-     merge(mergeSort(firstHalf), mergeSort(secondHalf))
+     merge(mergeSort(firstHalf), mergeSort(secondHalf));
    }
  }
 
