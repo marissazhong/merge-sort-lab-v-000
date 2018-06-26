@@ -25,7 +25,7 @@ function merge(arr1, arr2) {
 }
 
 function mergeSort(arr) {
-
+  
 }
 
 //console.log(merge([3,4,6,7],[1,2,5,8]));
