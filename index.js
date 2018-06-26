@@ -29,7 +29,7 @@ function mergeSort(array){
    let firstHalf = array.slice(0, midpoint);
    let secondHalf = array.slice(midpoint, array.length);
    //console.log(firstHalf,secondHalf);
-   if(array.length <= 2){
+   if(array.length < 2){
      return array;
    } else {
      console.log(firstHalf,secondHalf);
