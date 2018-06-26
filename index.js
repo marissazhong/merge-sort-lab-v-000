@@ -18,7 +18,7 @@ function merge(arr1, arr2) {
   }
   if (arr1.length != 0) {
     merged_arr += arr1;
-  } elseif (arr2.length != 0) {
+  } else if (arr2.length != 0) {
     merged_arr += arr2;
   }
   return merged_arr;
