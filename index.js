@@ -6,7 +6,7 @@ function findMinAndRemoveSorted(arr) {
 }
 
 function merge(arr1, arr2) {
-  merged_arr = [];
+  let merged_arr = [];
   while (arr1.length != 0 && arr2.length != 0) {
     if (arr1[0] <= arr2[0]) {
       merged_arr.push(arr1[0]);
